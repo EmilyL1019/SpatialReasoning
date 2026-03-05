@@ -18,7 +18,7 @@ authors:
   - name: Jack Lanoie
     affiliations:
       - University of Rhode Island
-  - name: Cody Giroux0
+  - name: Cody Giroux
     affiliations:
       - University of Rhode Island
 
@@ -42,7 +42,7 @@ This benchmark will test models performance on these topics using various exerci
 
 # Related Benchmarks
 
-Other benchmarks have previously tried measuring  LLM's consistency when it comes to true spatial intelligence/awareness. A model is able to detect a car in a photo, but it often cannot truly "think" about how that car would interact within a three dimensional context. What would a car look like if it was rotated 90 degress in a 3d space or such as, "what if a person moved between rooms?" Would the model understand the objects in the old room are no longer in the person's field of view? 
+Other benchmarks have previously tried measuring  LLM's consistency when it comes to true spatial intelligence/awareness. A model is able to detect a car in a photo, but it often cannot truly "think" about how that car would interact within a three dimensional context. What would a car look like if it was rotated 90 degrees in a 3d space or such as, "what if a person moved between rooms?" Would the model understand the objects in the old room are no longer in the person's field of view? 
 
 Our benchmark wants to shift the focus towards active spatial reasoning, mental manipulation of objects, predict the outcomes of said movement, and then understand how those changes would affect its real-world use. Comparing to past benchmarks showcases a perspective on where models currently succeed and where our benchmark will provide a new test for artificial common sense. 
 
@@ -67,7 +67,7 @@ The benchmark will contain two broad categories of tasks:
 2. Multi-Step Transformation questions, in an attempt to measure more complex spatial awareness and competence.
 
 ## Generic Transformations
-A series of templated spatial tasks will be presented to the model, with an answer bank containing valid answers. Models will be prompted to respond with a single word from the answer bank. Scoring is binary, questions given the correct answer from the given answer bank are correct. Incorrect answers, or answers containing words from outside of the answer bank are marked incorrect. Scoring will be displayed as total correct/incorrect, as well as by tags (2-Dimensional, 3-Dimensional, transformation only, "common selse" style question, specific object transformed).
+A series of templated spatial tasks will be presented to the model, with an answer bank containing valid answers. Models will be prompted to respond with a single word from the answer bank. Scoring is binary, questions given the correct answer from the given answer bank are correct. Incorrect answers, or answers containing words from outside of the answer bank are marked incorrect. Scoring will be displayed as total correct/incorrect, as well as by tags (2-Dimensional, 3-Dimensional, transformation only, "common sense" style question, specific object transformed).
 These questions will be either multi modal (image + text) or text-based, and will fit four categories:
 1. 2D Spatial Transformations
 2. 3D Spatial Transformations
