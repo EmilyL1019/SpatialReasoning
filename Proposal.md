@@ -105,7 +105,7 @@ Second, tasks where the model is given a text-based representation of the initia
 1. If the answer provided produces the goal state when applied to the initial state of the object, as correct/incorrect
 2. The number of transformation steps the given answer is away from the solution
 3. How optimal the solution was, based on the number of transformation steps:
-$$\frac{Transformation\:Steps\:Taken}{Optimal\:\#\:Transformation\:Steps}$$
+$$\frac{Transformation\:Steps\:Taken}{Optimal\:Number\:of\:Transformation\:Steps}$$
 ### Sample Task
 
 ```{figure} /content/images/figures/prop_fig3.png
